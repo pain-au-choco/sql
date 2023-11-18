@@ -1,4 +1,4 @@
 # sql 
-This is a repo for asdkjwehriauhwefawc :smile:
+This is a collection of SQL questions and problems sourced from popular coding platforms LeetCode and HackerRank that I have solved. 
+Thanks for visiting :smile:
 
-![image](https://github.com/pain-au-choco/sql/assets/112099595/b649bd1f-a6f6-4238-87cf-616f61815a90)
