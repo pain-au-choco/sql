@@ -1,3 +1,4 @@
+![image](https://github.com/sandvoxy/sql/assets/112099595/855c7e73-d12c-46c4-8503-d36a079d0411)
 1757. Recyclable and Low Fat Products
 Easy
 
