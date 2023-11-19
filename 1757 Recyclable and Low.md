@@ -18,6 +18,8 @@ recyclable is an ENUM (category) of types ('Y', 'N') where 'Y' means this produc
 Write a solution to find the ids of products that are both low fat and recyclable.
 
 Return the result table in any order.
+![image](https://github.com/sandvoxy/sql/assets/112099595/ab2950fa-90c1-4a32-90b6-b770a7d819e4)
+
 
 The result format is in the following example.
 
