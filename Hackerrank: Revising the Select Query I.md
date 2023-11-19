@@ -2,8 +2,8 @@
 
 SOLUTION:
 
-SELECT * <br><br>
-FROM CITY <br><br>
-WHERE CountryCode = "USA" <br><br>
-AND POPULATION > 100000; <br><br>
+SELECT * <br /> 
+FROM CITY <br /> 
+WHERE CountryCode = "USA" <br /> 
+AND POPULATION > 100000; <br /> 
 
