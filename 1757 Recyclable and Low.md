@@ -24,9 +24,9 @@ Return the result table in any order.
 The result format is in the following example.
 
 **SOLUTION**
-`
+
 SELECT product_id
 FROM Products
 WHERE low_fats = 'Y'
 AND recyclable = 'Y'; 
-`
+
