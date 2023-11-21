@@ -15,7 +15,8 @@ where LAT_N is the northern latitude and LONG_W is the western longitude.
 
 **Solution:**
 ```sql
-SELECT city, state FROM STATION;
+SELECT city, state
+FROM STATION;
 ```
 
 BASIC SELECT WEATHER OBSERVATION 6 https://www.hackerrank.com/challenges/weather-observation-station-6/problem?isFullScreen=true
