@@ -40,8 +40,8 @@ where LAT_N is the northern latitude and LONG_W is the western longitude.
 SELECT ROUND(SUM(LAT_N), 2) AS lat, ROUND(SUM(LONG_W), 2) AS lon
 FROM STATION;
 
-select CAST(ROUND(SUM(LAT_N), 2)AS NUMERIC(12,2)), CAST(ROUND(SUM(LONG_W), 2) AS NUMERIC(12,2)) 
-from STATION;
+SELECT CAST(ROUND(SUM(LAT_N), 2)AS NUMERIC(12,2)), CAST(ROUND(SUM(LONG_W), 2) AS NUMERIC(12,2)) 
+FROM STATION;
 ```
 
 [WEATHER OBSERVATION 3](https://www.hackerrank.com/challenges/weather-observation-station-3/problem?isFullScreen=true)
