@@ -18,6 +18,28 @@ where LAT_N is the northern latitude and LONG_W is the western longitude.
 SELECT city, state
 FROM STATION;
 ```
+[WEATHER OBSERVATION 2](https://www.hackerrank.com/challenges/weather-observation-station-2/problem?isFullScreen=true)
+
+Query the following two values from the STATION table:
+
+The sum of all values in LAT_N rounded to a scale of  decimal places.
+The sum of all values in LONG_W rounded to a scale of  decimal places.
+
+|  Field | Type |
+|-------|-----|
+| ID  | NUMBER |
+| CITY | VARCHAR2(21)   |
+| STATE CODE  | VARCHAR2(2)  |
+| LAT_N |  NUMBER |
+| LONG_W | NUMBER |
+
+where LAT_N is the northern latitude and LONG_W is the western longitude.
+
+**Solution:**
+```sql
+SELECT ROUND(SUM(LAT_N),2), ROUND(SUM(LONG_W),2)
+FROM STATION;
+```
 
 [WEATHER OBSERVATION 6](https://www.hackerrank.com/challenges/weather-observation-station-6/problem?isFullScreen=true)
 
