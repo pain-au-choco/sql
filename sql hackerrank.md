@@ -12,8 +12,8 @@ The CITY table is described as follows:
 | DISTRICT      | VARCHAR2(20) |
 | POPULATION    | NUMBER       |
 
-**Solution**
-```
+**Solution:**
+```sql
 SELECT *
 FROM CITY
 WHERE POPULATION > 100000
