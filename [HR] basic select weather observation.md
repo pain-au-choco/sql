@@ -7,7 +7,7 @@ The STATION table is described as follows:
 |-------|-----|
 | ID  | NUMBER |
 | CITY | VARCHAR2(21)   |
-| STATE CODE  | VARCHAR2(2)  |
+| STATE  | VARCHAR2(2)  |
 | LAT_N |  NUMBER |
 | LONG_W | NUMBER |
 
