@@ -1,4 +1,4 @@
-BASIC SELECT WEATHER OBSERVATION 1 https://www.hackerrank.com/challenges/weather-observation-station-1/problem?isFullScreen=true)###
+[WEATHER OBSERVATION 1] (https://www.hackerrank.com/challenges/weather-observation-station-1/problem?isFullScreen=true)
 
 Query a list of CITY and STATE from the STATION table.
 The STATION table is described as follows:
@@ -19,7 +19,7 @@ SELECT city, state
 FROM STATION;
 ```
 
-BASIC SELECT WEATHER OBSERVATION 6 https://www.hackerrank.com/challenges/weather-observation-station-6/problem?isFullScreen=true
+[WEATHER OBSERVATION 6] (https://www.hackerrank.com/challenges/weather-observation-station-6/problem?isFullScreen=true)
 
 |  Field | Type |
 |-------|-----|
