@@ -61,6 +61,25 @@ SELECT DISTINCT(city) FROM STATION
 WHERE mod(ID,2) = 0;
 ```
 
+[WEATHER OBSERVATION 4](https://www.hackerrank.com/challenges/weather-observation-station-4/problem?isFullScreen=true)
+
+Find the difference between the total number of CITY entries in the table and the number of distinct CITY entries in the table.
+
+|  Field | Type |
+|-------|-----|
+| ID  | NUMBER |
+| CITY | VARCHAR2(21)   |
+| STATE  | VARCHAR2(2)  |
+| LAT_N |  NUMBER |
+| LONG_W | NUMBER |
+
+where LAT_N is the northern latitude and LONG_W is the western longitude.
+
+**Solution:**
+```sql
+SELECT COUNT(CITY) - COUNT(DISTINCT CITY) AS difference
+FROM STATION;
+```
 
 [WEATHER OBSERVATION 6](https://www.hackerrank.com/challenges/weather-observation-station-6/problem?isFullScreen=true)
 
